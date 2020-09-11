@@ -1,0 +1,38 @@
+body{
+    background: darkslategrey;
+    font-family: Georgia;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    margin-left: 200px;
+}
+
+p{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.elements, th, td{
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    border-collapse: collapse; 
+    border: 0.5px solid white;
+    background: mediumaquamarine;
+    color: black;
+    
+}
+
+.elements #name, #tag   {
+    column-width: 150px;
+    text-align: center;
+}
+
