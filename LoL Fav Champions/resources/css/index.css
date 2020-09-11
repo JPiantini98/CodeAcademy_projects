@@ -1,0 +1,42 @@
+body{
+    font-family: Helvetica;
+    background: #293241;
+}
+
+h1{
+    font-size: 100;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h3, p{
+    color: white;
+}
+
+span{
+    font-weight: bold;
+    color:khaki;
+}
+
+#akali{
+    background-color: #23ce6b;
+}
+
+#irelia{
+    background-color: salmon;
+}
+
+#qiyana{
+    background-color: #5ADBFF;
+}
+
+.championDiv{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#champPhoto{
+    margin-left: 40px;
+}
