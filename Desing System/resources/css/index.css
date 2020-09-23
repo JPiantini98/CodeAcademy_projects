@@ -1,0 +1,173 @@
+/*RESETING THE BOX MODEL AND MARGIN AND PADDINGS*/
+* { 
+    box-sizing: border-box; 
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+/*FONTS EMBEDED FROM https://fonts.google.com*/
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: local('Kumbh Sans Light'), local('KumbhSans-Light'), url(https://fonts.gstatic.com/s/kumbhsans/v1/c4mm1n92AsfhuCq6tVsagit_7KWfXA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Kadwa';
+    src: local('Kadwa'), local('Kadwa-Regular'), url(https://fonts.gstatic.com/s/kadwa/v4/rnCm-x5V0g7ipiTAT8Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular'), local('BebasNeue-Regular'), url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*GENERAL DECLARATIONS FOR body, h1 AND h2*/
+body{
+    color: white;
+    background-color: darkslategrey ;
+}
+
+
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: "Kadwa";
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 27px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* --->>> COLOR SECCTION <<<--- */
+
+#color_secction{/*div's declarations*/ 
+    width: 800px;
+    margin: 50px auto;
+}
+
+.color_card{/*cards format*/
+    height: 300px;
+    width: 150px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.color_card p{/*cards text format*/
+    color: whitesmoke;
+    text-align: center; 
+    margin-top: 240px;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+/*COLORS OF THE CARD'S BACKGROUND*/
+#oxford_blue{
+    background-color: #00072D;
+}
+
+#royal_blue{
+    background-color: #0A2472;
+}
+
+#saphire_blue{
+    background-color: #0E6BA8;
+}
+
+#viridian_green{
+    background-color: #00A39E;
+}
+
+#mountain_meadow{
+    background-color: #09BC8A;
+}
+
+
+
+
+/* --->>> FONTS SECCTION <<<--- */
+
+#font_secction{/*div's declarations*/
+    width: 800px;
+    margin: 50px auto;
+}
+
+.font_option{ /*font options format for all three options*/
+    position: relative;
+    left:35px;
+    width: 230px;
+    height: 135px;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+
+/*FONTS FAMILT ASSIGNATION*/
+#kumbh_sans{
+    font-family: "Kumbh Sans";
+}
+
+#kadwa{
+    font-family: "Kadwa";
+}
+
+#bebas_neue{
+    font-family: 'Bebas Neue';
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+
+/* --->>> TEXT STYLE SECCTION <<<--- */
+#text_style{/*div's declarations*/
+    width: 800px;
+    margin: 50px auto;
+}
+
+.txtStyle{ /*Just the subtitles of the Text Style div*/
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.text_characteristics{ /*Unordered list format*/
+    position: relative;
+    left: 40px;
+    font-family: "Kumbh Sans";
+    font-size: 18;
+    line-height: 1.5;
+    height: 100px;
+    width: 300px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: black;
+}
