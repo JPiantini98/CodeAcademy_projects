@@ -1,0 +1,184 @@
+/*RESET VALUES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+/*EMBEDED FONTS FROM GOOGLE FONTS*/
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Sansita Swashed';
+    src: url(https://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpXT0few.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/*General Declarations*/
+body{
+    color: white;
+    background-color: #212738;
+}
+
+/*Navigation Bar*/
+#nav_bar{
+    text-transform: uppercase;
+    color: #212738;
+    background-color: #ED9831;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    display: inline-block;
+    margin-left: 12%;
+    text-decoration: none;
+}
+
+/*Banner*/
+header{
+    height: 400px;
+    width: auto;
+    background-image: url(https://images.unsplash.com/photo-1591781219192-0ec454da8111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1{
+    color: #ED9831;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Sansita Swashed', serif;
+    font-size: 3rem;
+}
+
+/*Introduction Layout*/
+#introduction{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 5%;
+}
+
+/*Main General Layout*/
+main p{
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+}
+
+h2, h3{
+    color: #ED9831;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Country Section Layout (japan/spain/dr html divs)*/
+.country{
+    margin-top: 10%;
+    padding: 25px;
+    height: 300px;
+}
+
+/*All images layout*/
+.img{
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    border-radius: 10px;
+}
+
+/*About me Section*/
+footer{
+    margin: 20%;
+    text-align: center;
+}
+
+
+/*MEDIA QUERYS*/
+@media only screen and (max-width: 1300px){
+    #nav_bar{
+        font-size: 1rem;
+    }
+
+    nav a{
+        margin-left: 10%;
+    }
+
+    .country{
+        height: auto;
+        margin: 0;
+    }
+    .img{
+        height: 200px;
+        width: 30%;
+        margin: 10px auto;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    #nav_bar{
+        font-size: 0.75rem;
+    }
+
+    nav a{
+        margin-left: 10%;
+    }
+
+    .country{
+        height: auto;
+    }
+    .img{
+        display: block;
+        height: 200px;
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #nav_bar{
+        font-size: 0.75rem;
+    }
+
+    nav a{
+        margin-left: 5%;
+    }
+
+    #introduction{
+        font-size: 1rem;
+    }
+
+    .country{
+        height: auto;
+        font-size: 0.95rem;
+    }
+    .img{
+        display: block;
+        height: 200px;
+        width: 90%;
+        margin: 10% auto;
+    }
+}
