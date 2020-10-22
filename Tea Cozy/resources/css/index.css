@@ -1,0 +1,117 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*HEADER BAR*/
+header{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+
+header img{
+    height: 50px;
+    padding-left: 10px;
+    float: left;
+}
+
+header a{
+    color: seashell;
+    text-decoration: underline;
+    margin: 20px;
+    float: right;
+}
+
+
+/*MISION BANNER*/
+
+#mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 62px auto;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    background-image: url('../images/img-mission-background.webp');
+    
+}
+
+#mission h2, h4{
+    background-color: black;
+    width: 100%; 
+    margin: 0;
+}
+
+/*TEA OF THE MONTH SECCTION*/
+
+
+#tea_month{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#tea_month h4{
+    margin-bottom: 30px;
+}
+
+#tea_month img{
+    height: 200px;
+    width: 300px;
+}
+
+#images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}  
+
+.description1{
+    margin: 10px 50px;
+}
+
+.description2{
+    display: inline-block;
+    margin: 0 150px;
+}
+
+/*LOCATION SECCTION*/
+#location{
+    background-image: url('../images/img-locations-background.webp');
+    height: 500px;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.location_card{
+    background-color: black;
+    display: inline-block;
+    line-height: 50px;
+    width: 300px;
+    margin: 15px 40px;
+}
+
+/*FOOTER SECTION*/
+footer{
+    height: 200px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+#copyright{
+    float: left;
+}
